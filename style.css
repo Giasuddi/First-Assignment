@@ -3,20 +3,26 @@ body{
 }
 .half-width{
     width: 50%;
-    padding-left:5%;
+    padding-left:2%;
     padding-right: 5%;
 }
 .half-width img{
-    width: 80%;
+width: 80%;
+height:88%;
+
 }
 .half1{
     color: orange;
 }
+div{
+    text-align: center;
+}
 h1{
     font-size: 50px;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 60px;
 }
 .link-button{
     text-decoration: none;
@@ -26,10 +32,40 @@ section{
     font-weight: 700;
     border-radius: 20px;
 }
-.size{
-    padding-bottom: 10px;
+.top-banner{
+    background-image: url(images);
+    background-repeat: no-repeat;
 }
 .middle-banner{
     background-image:url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.recipies-item{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    padding-left: 40px;
+    border-left:5px white;
+}
+.recipies-item img{
+    height: 200px;
+    width: 230px;
+    padding-top:10px;
+    padding-right:100px;
+
+}
+.last{
+    color: orange;
+}
+.last-one{
+    color: palevioletred;
+}
+.last-two{
+    color: blanchedalmond;
+}
+.background{
+    background-color: black;
+    margin:0;
 }
