@@ -7,9 +7,16 @@ body{
     padding-right: 5%;
 }
 .half-width img{
-width: 80%;
-height:88%;
+width: 70%;
+height:90%;
 
+}
+.color{
+    color: cadetblue;
+}
+#love{
+    color: darkblue;
+    font-size: 40px;
 }
 .half1{
     color: orange;
@@ -42,12 +49,13 @@ h1{
 }
 .recipies-item{
     width: 20%;
-    margin-left: 5%;
+    margin-left:5%;
     margin-right: 5%;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 20px 40px gray;
     border-radius: 30px;
     padding-left: 40px;
-    border-left:5px white;
+    border-left:10px white;
+    margin-bottom: 100px;
 }
 .recipies-item img{
     height: 200px;
